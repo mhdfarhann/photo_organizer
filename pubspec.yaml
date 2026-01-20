@@ -1,0 +1,38 @@
+name: photo_organizer
+description: AI-powered photo organizer
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Image & ML
+  tflite_flutter: ^0.11.0
+  image: ^4.1.7
+  
+  # Gallery & Storage
+  photo_manager: ^3.0.0
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  
+  # UI & State Management
+  provider: ^6.1.1
+  
+  # Utilities
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/models/
