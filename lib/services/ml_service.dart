@@ -15,7 +15,7 @@ class MLService {
       final options = InterpreterOptions();
       
       _interpreter = await Interpreter.fromAsset(
-        'assets/models/mobilenet_v2.tflite',
+        'assets/models/mobilenet_feature_vector.tflite',
         options: options,
       );
       
