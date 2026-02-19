@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    
   
   # Image & ML
   tflite_flutter: ^0.11.0
@@ -19,6 +20,8 @@ dependencies:
   photo_manager: ^3.0.0
   path_provider: ^2.1.2
   permission_handler: ^11.3.0
+
+  shared_preferences: ^2.2.2
   
   # UI & State Management
   provider: ^6.1.1
